@@ -69,7 +69,7 @@ window.ARThreeOnLoad = function() {
 		var rotationV = 0;
 		var rotationTarget = 0;
 		var onRenderFcts= [];
-
+        var mixers = [];
 		renderer.domElement.addEventListener('click', function(ev) {
 			ev.preventDefault();
 			rotationTarget += 1;
